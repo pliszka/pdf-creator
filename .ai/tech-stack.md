@@ -14,3 +14,11 @@ Backend - Laravel jako pełnoprawny framework backendowy wspierający rapid deve
 CI/CD i Hosting:
 - Github Actions do tworzenia pipeline’ów CI/CD
 - Dokku do hostowania aplikacji za pośrednictwem obrazu docker
+
+Local development:
+- Makefile - większość potrzebnych automatyzacji powinna być umieszczona bezpośrednio w makefile dzieki czemu mamy jeden punkt wejścia
+- Docker + docker compose do łatwego stawiania środowiska
+- Traefik - do 
+
+Wersje i biblioteki:
+- PHP 8.4
